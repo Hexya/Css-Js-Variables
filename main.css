@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Yellowtail');
+
+:root {
+  --spacing:10px;
+  --blur:10px;
+  --base:#e3e0bf;
+}
+
+body {
+  text-align: center;
+  background: rgb(219, 218, 211);
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  background: url(hqoa0la91as-dulcineia-dias.jpg);
+  background-size: cover;
+}
+.controls {
+  margin-bottom: 50px;
+}
+input {
+  width:100px;
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter:blur(var(--blur));
+  border-radius: 5px;
+  height: auto;
+  width: 40%;
+}
+h2 {
+  font-family: 'Kaushan Script', cursive;
+}
+.hl {
+  color: var(--base);
+}
